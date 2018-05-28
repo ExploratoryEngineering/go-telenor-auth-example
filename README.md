@@ -5,8 +5,12 @@ A project to show a simple implementation of [go-telenor-auth](https://github.co
 ## How to use
 1. Download the newest [releases](https://github.com/ExploratoryEngineering/go-telenor-auth-example/releases) as an exectuable binary for Linux/OSX or Windows
 2. Add a `config.json` file with the client id and client secret. See [configuration](#configuration) for more details
+3. Run the example binary
+```bash
+./go-telenor-auth
+```
 
-The server exposes the following endpoints:
+The server should now start on http://localhost:8080 and exposes the following endpoints:
 
 *Open endpoints*
 - `/`: Simple landing page which signals that everything is OK
