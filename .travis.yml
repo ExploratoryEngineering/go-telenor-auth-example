@@ -1,0 +1,9 @@
+language: go
+go: 
+  - master
+
+before_install:
+  - go get -t -v ./...
+
+script:
+  - go test -race -covermode=atomic
