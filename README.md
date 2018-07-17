@@ -51,7 +51,7 @@ Configuration file name:
 
 Use id and secret as params:
 ```bash
-./go-telenor-auth -apigee-client-id my-id apigee-client-secret my-secret
+./go-telenor-auth -apigee-client-id my-id -apigee-client-secret my-secret
 ```
 
 ## Build
